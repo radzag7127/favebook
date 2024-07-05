@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Façebook",
-  description: "Meta'ed",
+  description:
+    "This is an educational phishing awareness website for the field study of FILKOM UB 2024. Do not use it for malicious purposes. Any misuse of this website will be subject to legal action.",
 };
 
 export default function RootLayout({

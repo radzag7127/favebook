@@ -1,3 +1,17 @@
+## Description
+
+This project is a part of the KKN (Community Service Program) Filkom UB, focusing on internet dangers and cybersecurity awareness. It aims to educate the public about the importance of online safety and the risks associated with phishing and other cyber threats.
+
+## Disclaimer
+
+**Important:** This website has been flagged as a phishing site by Google. Please note that it is solely for educational purposes related to the KKN Filkom UB program. It is not intended for malicious use or to deceive users. The project demonstrates how phishing works to help people recognize and avoid such threats.
+
+## Features
+
+- Educational content on internet dangers
+- Information on recognizing and avoiding phishing attacks
+- Resources for improving cybersecurity awareness
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
