@@ -224,9 +224,9 @@ const FacebookDesk: React.FC = () => {
                   required
                 >
                   <option value="">Day</option>
-                  {[...Array(31).keys()].map((day) => (
-                    <option key={day + 1} value={day + 1}>
-                      {day + 1}
+                  {Array.from({ length: 31 }, (_, i) => i + 1).map((day) => (
+                    <option key={day} value={day}>
+                      {day}
                     </option>
                   ))}
                 </select>
@@ -263,13 +263,16 @@ const FacebookDesk: React.FC = () => {
                   required
                 >
                   <option value="">Year</option>
-                  {[...Array(120).keys()].map((year) => (
-                    <option key={2024 - year} value={2024 - year}>
-                      {2024 - year}
-                    </option>
-                  ))}
+                  {Array.from({ length: 120 }, (_, i) => 2024 - i).map(
+                    (year) => (
+                      <option key={year} value={year}>
+                        {year}
+                      </option>
+                    )
+                  )}
                 </select>
               </div>
+
               <div className="flex space-x-3 mb-4">
                 <label className="w-1/3 flex items-center">
                   <input
