@@ -12,6 +12,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "downlevelIteration": true, // this
+    "target": "es2015", // this
     "plugins": [
       {
         "name": "next"
