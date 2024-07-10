@@ -6,7 +6,6 @@ import Popup from "./facebook/components/warning";
 export default function Home() {
   return (
     <main>
-      <Popup />
       <section>
         <Facebook />
       </section>
